@@ -21,7 +21,7 @@ fs.mkdirSync(outputPath, { recursive: true })
 fs.writeFileSync(`${outputPath}tabla-${base}.txt`, outputMessage);
 
 if (showTable) {
-
+    // a
     console.log(outputMessage)
 }
 
